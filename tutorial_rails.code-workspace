@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "tutorial_rails",
+			"path": "."
+		},
+		{
+			"name": "test_samle",
+			"path": "./test_samle"
+		},
+		{
+			"name": "book_admin",
+			"path": "./book_admin"
+		}
+	],
+	"settings": {
+		// name: my_project には通常そのサブディレクトリであるfrontend、backendディレクトリも表示されてしまう
+		// これらはそれぞれ個別に表示しているものと重複してしまうので、name: my_projectの方には表示しないようにする
+		"files.exclude": {
+			"test_samle": true,
+			"book_admin": true
+		},
+		"rubyLsp.formatter": "rubocop",
+		"rubyLsp.rubyVersionManager": {
+			"identifier": "rbenv"
+		},
+		"[ruby]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "Shopify.ruby-lsp"
+		}
+	}
+}
