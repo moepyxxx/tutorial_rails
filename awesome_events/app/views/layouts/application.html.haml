@@ -21,5 +21,7 @@
         %ul.navbar-nav
           %li.nav-item
             = link_to "Githubでログイン", "/auth/github", class: "nav-link", data: { "turbo-method": :post }
+          %li.nav-item
+            = link_to "イベントを作る", new_event_path, class: "nav-link"
     .container
       = yield
