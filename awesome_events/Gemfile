@@ -32,6 +32,14 @@ gem "bootsnap", require: false
 gem "hamlit-rails", '~> 0.2.3'
 gem 'html2haml', '~> 2.2.0'
 
+gem 'bootstrap', '~> 5.3.0'
+gem 'jquery-rails'
+gem "sassc-rails"
+
+gem 'omniauth'
+gem 'omniauth-github'
+gem 'omniauth-rails_csrf_protection'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
